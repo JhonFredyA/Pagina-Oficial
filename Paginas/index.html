@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicCloud</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script>
+        window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+    </script>
+</head>
+<body class="fondo">
+    <header>
+    <img id="logo" src="../imagenes/musi.gif">
+    <h1 id="titulo">MusicCloud</h1>
+       <nav>
+        <ul class="texto">
+            <li class="niveles"><a id="boton" href="index.html">Inicio</a></li>
+            <li class="niveles"><a id="boton" href="musica.html">Categorias</a></li>
+            <li class="niveles"><a id="boton" href="contactenos.html">Contactenos</a></li>
+        </ul>
+    </nav>
+    <div class="loader"><h1>Loading</h1></div>
+</header>
+<main>
+    <article>
+        <section>
+            <h1 id="subtitulo">
+                Nuestras Canciones
+            </h1>
+            <p class="texto2"> 
+                Las canciones desde siempre han sido una herramienta fundamental en la escuela 
+                para acercar cualquier materia mejor hacia el entendimiento de los niños. 
+                Aprendiendo Música, este recurso es doblemente útil, al poder trabajar además 
+                los aspectos propiamente musicales. Una cuidada elaboración de canciones se 
+                han seleccionado, compuesto o arreglado para nuestra metodología como herramientas 
+                para aprender los aspectos que nos interesan en cada actividad.
+            </p>
+            <img id="imagen" src="/imagenes/Musica oscuro.jfif">    
+        </section>
+    </article>
+</main>
+    <footer>
+        <h1>Redes Sociales</h1>
+        Facebook  <i class="fa-brands fa-facebook fa-bounce"></i><br>
+        Whatsapp <i class="fa-brands fa-whatsapp fa-bounce"></i><br>
+        Instagram <i class="fa-brands fa-instagram fa-bounce"></i></i><br>
+        Twitter <i class="fa-brands fa-x-twitter fa-bounce"></i>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="codigo.js"></script>
+</body>
+</html>

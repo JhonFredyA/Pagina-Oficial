@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicCloud</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    window.addEventListener("load", () => {
+const loader = document.querySelector(".loader");
+
+loader.classList.add("loader--hidden");
+
+loader.addEventListener("transitionend", () => {
+document.body.removeChild(loader);
+});
+});
+</script>
+</head>
+<body class="fondo">
+    <header>
+    <img id="logo" src="../imagenes/musi.gif">
+    <h1 id="titulo">MusicCloud</h1>
+       <nav>
+        <ul class="texto">
+            <li class="niveles"><a id="boton" href="index.html">Inicio</a></li>
+            <li class="niveles"><a id="boton" href="musica.html">Categorias</a></li>
+            <li class="niveles"><a id="boton" href="contactenos.html">Contactenos</a></li>
+        </ul>
+       </nav>
+       <div class="loader"><h1>Loading</h1></div>
+</header>
+<div id="caja-texto1">
+    <a id="boton" href="musica_rock.html"><h1>ROCK<ion-icon name="musical-notes-outline"></ion-icon></a></h1>
+</div>
+<div id="caja-texto1">
+    <a id="boton" href="musica_salsa.html"><h1>SALSA<ion-icon name="musical-notes-outline"></ion-icon></a></h1>
+</div>
+    <div id="caja-texto1">
+    <a id="boton" href="musica_valle.html"><h1>VALLENATO<ion-icon name="musical-notes-outline"></ion-icon></a></h1>
+    </div>
+    <div id="caja-texto1">
+    <a id="boton" href="musica_tango.html"><h1>TANGO<ion-icon name="musical-notes-outline"></ion-icon></a></h1>
+</div>
+<div id="caja-texto1">
+    <a id="boton" href="musica_jazz.html"><h1>JAZZ<ion-icon name="musical-notes-outline"></ion-icon></a></h1>
+</div>
+<div id="caja-texto1">
+    <a id="boton" href="musica_reggae.html"><h1>REGGAE<ion-icon name="musical-notes-outline"></ion-icon></a></h1>
+</div>
+<div id="caja-texto1">
+    <a id="boton" href="musica_electronica.html"><h1>ELECTRONICA<ion-icon name="musical-notes-outline"></ion-icon></a></h1>
+</div>
+<div id="caja-texto1">
+    <a id="boton" href="musica_heavy_metal.html"><h1>HEAVY METAL<ion-icon name="musical-notes-outline"></ion-icon></a></h1>
+</div>
+<!--TARJETA-->
+<div class="inline">
+<div class="card">
+    <div class="face front">
+        <img class="img" src="../imagenes/images.jfif" alt="">
+        <h3>Frase Inspiradora #1</h3>
+    </div>
+    <div class="face back">
+
+        <h3>Marc Anthony</h3>
+        <p>Voy a Vivir el momento para entender el destino voy a escuchar en silencio para encontrar el camino</p>
+        <div class="link">
+        <a href="#"></a>
+    </div>
+    </div>
+</div>
+<!--Otra tarjeta -->
+
+<div class="card">
+    <div class="face front">
+        <img class="img" src="../imagenes/images.jfif" alt="">
+        <h3>Frase Inspiradora #2</h3>
+    </div>
+    <div class="face back">
+
+        <h3>Elvis Presley</h3>
+        <p> La musica nunca puede ser mala , digan lo que digan del rock and roll</p>
+        <div class="link">
+        <a href="#"></a>
+    </div>
+    </div>
+    </div>
+    <!--Otra tarjeta-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/images.jfif" alt="">
+            <h3>Frase Inspiradora #3</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Beethoven</h3>
+            <p>La Musica Constituye una revelacion mas alta que ninguna filosofia </p>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+        </div>  
+</div>
+<footer>
+    <h1>Redes Sociales</h1>
+    Facebook  <i class="fa-brands fa-facebook fa-bounce"></i><br>
+    Whatsapp <i class="fa-brands fa-whatsapp fa-bounce"></i><br>
+    Instagram <i class="fa-brands fa-instagram fa-bounce"></i></i><br>
+    Twitter <i class="fa-brands fa-x-twitter fa-bounce"></i>
+</footer>
+</body>
+</html>

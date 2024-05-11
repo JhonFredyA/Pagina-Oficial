@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronica</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    window.addEventListener("load", () => {
+const loader = document.querySelector(".loader");
+
+loader.classList.add("loader--hidden");
+
+loader.addEventListener("transitionend", () => {
+document.body.removeChild(loader);
+});
+});
+
+</script>
+</head>
+<body class="fondo">
+    <header>
+        <img id="logo" src="../imagenes/musi.gif">
+        <h1 id="titulo">MusicCloud</h1>
+           <nav>
+            <ul class="texto">
+                <li class="niveles"><a id="boton" href="index.html">Inicio</a></li>
+                <li class="niveles"><a id="boton" href="musica.html">Categorias</a></li>
+                <li class="niveles"><a id="boton" href="contactenos.html">Contactenos</a></li>
+            </ul>
+           </nav>
+           <div class="loader"><h1>Loading</h1></div>
+    </header>
+    <h1 id="subtitulo">Canciones de Electronica</h1>
+    <!--Tarjeta #1-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Alone.png" alt="">
+                <h3>Alan Walker</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Alone</h3>
+                <audio id="a" src="../Canciones/Alan Walker  Alone.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('a').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+    <!--Tarjeta#2-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/NCS.PNG" alt="">
+            <h3>NCS</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Castle In The Sky</h3>
+            <audio id="b" src="../Canciones/Clarx  Harddope  Castle  House  NCS  Copyright Free Music.mp3" controls=""></audio>
+<br>
+<button  class="boton_musica" onclick="document.getElementById('b').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #3-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Happier.jpg" alt="">
+            <h3>Marshmello</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Happier </h3>
+            <audio id="c" src="../Canciones/Marshmello ft Bastille  Happier Official Music Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('c').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #4-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Geometry Dash.jpg" alt="">
+            <h3>MDK</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Geometry Dash Official Theme Song</h3>
+            <audio id="d" src="../Canciones/MDK  GEOMETRY DASH OFFICIAL THEME SONG.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('d').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--Segunda Fila Tarjeta #5-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/The living.PNG" alt="">
+                <h3>The Living Tombstone</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Jump Up Super Star</h3>
+                <audio id="e" src="../Canciones/Jump Up Super Star Remix Super Mario Odyssey The Living Tombstone.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('e').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #6-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Seantonio.jpg" alt="">
+                <h3>Seantonio And Alan Walker</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Odysea</h3>
+                <audio id="f" src="../Canciones/Alan Walker  Seantonio  ODYSEA Official Music Video 2024.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('f').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #7-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Eurobeat.jpg" alt="">
+                <h3>Eurobeat Brony</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Luna 2018</h3>
+                <audio id="g" src="../Canciones/Luna 2018 ft Odyssey Dream Mode  Eurobeat Brony Eurobeat.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('g').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #8-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Specter.jpg" alt="">
+                <h3>Alan Walker</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Specter</h3>
+                <audio id="h" src="../Canciones/Alan Walker  The Spectre.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('h').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>r
+    </div>
+
+</body>
+</html>

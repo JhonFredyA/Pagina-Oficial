@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazz</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    window.addEventListener("load", () => {
+const loader = document.querySelector(".loader");
+
+loader.classList.add("loader--hidden");
+
+loader.addEventListener("transitionend", () => {
+document.body.removeChild(loader);
+});
+});
+
+</script>
+</head>
+<body class="fondo">
+    <div class="loader"><h1>Loading</h1></div>
+    <header>
+        <img id="logo" src="../imagenes/musi.gif">
+        <h1 id="titulo">MusicCloud</h1>
+           <nav>
+            <ul class="texto">
+                <li class="niveles"><a id="boton" href="index.html">Inicio</a></li>
+                <li class="niveles"><a id="boton" href="musica.html">Categorias</a></li>
+                <li class="niveles"><a id="boton" href="contactenos.html">Contactenos</a></li>
+            </ul>
+           </nav>
+    </header>
+    <h1 id="subtitulo">Canciones de Jazz</h1>
+    <!--Tarjeta #1-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Dave Brubeck.png" alt="">
+                <h3>Dave Brubeck</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Take Five</h3>
+                <audio id="a" src="../Canciones/Dave Brubeck  Take Five.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('a').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+    <!--Tarjeta#2-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Miles.png" alt="">
+            <h3>Miles Davis</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>So What</h3>
+            <audio id="b" src="../Canciones/So What byMiles Davis.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('b').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #3-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/thelonious.png" alt="">
+            <h3>Thelonious Monk</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Round Midnight</h3>
+            <audio id="c" src="../Canciones/Round Midnight  Thelonious Monk 1947.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('c').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #4-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/john coltrane.png" alt="">
+            <h3>john coltrane</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Giant Steps</h3>
+            <audio id="d" src="../Canciones/Giant Steps.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('d').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--Segunda Fila Tarjeta #5-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/charles mingus.png" alt="">
+                <h3>Charles Mingus</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Goodbye Pork Pie Hat</h3>
+                <audio id="e" src="../Canciones/Charles Mingus  Goodbye Pork Pie Hat.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('e').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #6-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/When you re smilign.jfif" alt="">
+                <h3>Louis Armstrong</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>When youre smiling</h3>
+                <audio id="f" src="../Canciones/Louis Armstrong  When Youre Smiling.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('f').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #7-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/sweet lorraine.jfif" alt="">
+                <h3>Nat King Cole</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Sweet Lorraine</h3>
+                <audio id="g" src="../Canciones/Nat King Cole  Sweet Lorraine.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('g').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #8-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Palo!.jfif" alt="">
+                <h3>PALO!</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Al Monte</h3>
+                <audio id="h" src="../Canciones/PALO Al Monte  Musica Cubana Salsa Jazz Funk.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('h').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>r
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicCloud</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script>
+        window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+    </script>
+</head>
+<body class="fondo">
+    <header>
+    <img id="logo" src="../imagenes/musi.gif">
+    <h1 id="titulo">MusicCloud</h1>
+       <nav>
+        <ul class="texto">
+         <li class="niveles"><a id="boton" href="index.html">Inicio</a></li>
+            <li class="niveles"><a id="boton" href="musica.html">Categorias</a></li>
+            <li class="niveles"><a id="boton" href="contactenos.html">Contactenos</a></li>
+        </ul>
+    </nav>
+    <div class="loader"><h1>Loading</h1></div>
+</header>
+<h1 id="subtitulo">Contacto<i class="fa-solid fa-phone fa-shake"></i></h1>
+<br>
+<h2 id="contatexto">¿Como Podemos Ayudarte?</h2>
+<p class="texto2">Quieres Iniciar una nueva conversacion alrededor de nuevas ideas , implementaciones y innovaciones
+    para la aplicacion? contactanos! y te escucharemos!
+</p>
+<form class="form">
+    <h2 class="form_title">Inicia Sesion</h2>
+    <p class="form_paragraph">Dale Contactanos!</p>
+
+    <div class="form_container">
+        <div class="form_group">
+            <input type="text"  id="name" class="form_input" placeholder=" ">
+            <label for="name" class="form_label">Nombre:</label>
+            <span class="form_line"></span>
+
+        </div>
+        <div class="form_group">
+            <input type="text"  id="user" class="form_input" placeholder=" ">
+            <label for="name" class="form_label">Correo Electronico:</label>
+            <span class="form_line"></span>
+
+        </div>
+        <div class="form_group">
+            <input type="text"  id="password" class="form_input" placeholder=" ">
+            <label for="name" class="form_label">Opinion:</label>
+            <span class="form_line"></span>
+
+        </div>
+        <label for="ciudad">Ciudad</label>
+        <select name="" id="">
+            <option value="">Bogota</option>
+            <option value="">Medellin</option>
+            <option value="">Bucaramanga</option>
+            <option value="">Cali</option>
+        </select>
+        <label for="">Aceptar Terminos y Condiciones </label>
+        <input type="checkbox" name="check" id="">
+        <h1>Ubicacion</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.0538723734253!2d-74.10236032490704!3d4.584351842654986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9928157c87b9%3A0x243c9098ee65c600!2sSoundClub%20Electr%C3%B3nica!5e0!3m2!1ses!2sco!4v1714183736003!5m2!1ses!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <input type="submit" class="form_submit" value="Enviar">
+    </div>
+</form>
+
+<footer>    
+    <h1>Redes Sociales</h1>
+    Facebook  <i class="fa-brands fa-facebook fa-bounce"></i><br>
+    Whatsapp <i class="fa-brands fa-whatsapp fa-bounce"></i><br>
+    Instagram <i class="fa-brands fa-instagram fa-bounce"></i></i><br>
+    Twitter <i class="fa-brands fa-x-twitter fa-bounce"></i>
+</footer>
+</body>
+</html>

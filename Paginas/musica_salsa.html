@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salsa</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    window.addEventListener("load", () => {
+const loader = document.querySelector(".loader");
+
+loader.classList.add("loader--hidden");
+
+loader.addEventListener("transitionend", () => {
+document.body.removeChild(loader);
+});
+});
+
+</script>
+</head>
+<body class="fondo">
+    <header>
+        <img id="logo" src="../imagenes/musi.gif">
+        <h1 id="titulo">MusicCloud</h1>
+           <nav>
+            <ul class="texto">
+                <li class="niveles"><a id="boton" href="index.html">Inicio</a></li>
+                <li class="niveles"><a id="boton" href="musica.html">Categorias</a></li>
+                <li class="niveles"><a id="boton" href="contactenos.html">Contactenos</a></li>
+            </ul>
+           </nav>
+           <div class="loader"><h1>Loading</h1></div>
+    </header>
+    <h1 id="subtitulo">Canciones de Salsa</h1>
+    <!--Tarjeta #1-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Ale Ale Ale.jpg" alt="">
+                <h3>Marc Anthony - Ale Ale</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Ale Ale</h3>
+                <audio id="a" src="../Canciones/Marc Anthony  Ale Ale Official Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('a').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+    <!--Tarjeta#2-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Corazon acero.jpg" alt="">
+            <h3>Yiyo Sarante - Corazon de Acero</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Corazon de Acero</h3>
+            <audio id="b" src="../Canciones/Yiyo Sarante  Corazon de Acero Video Oficial.mp3" controls=""></audio>
+<br>
+<button  class="boton_musica" onclick="document.getElementById('b').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #3-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Conteo regresivo.jpg" alt="">
+            <h3>Gilberto Santa Rosa - Conteo Regresivo</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Conteo Regresivo</h3>
+            <audio id="c" src="../Canciones/Gilberto Santa Rosa  Conteo Regresivo Salsa Version.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('c').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #4-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Frankie Ruiz - deseandote.jpg" alt="">
+            <h3>Frankie Ruiz - Deseandote</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Deseandote</h3>
+            <audio id="d" src="../Canciones/Deseandote - Frankie Ruiz.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('d').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--Segunda Fila Tarjeta #5-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/lluvia.jpg" alt="">
+                <h3>Eddie Santiago - Lluvia</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Lluvia</h3>
+                <audio id="e" src="../Canciones/Lluvia.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('e').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #6-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/yo no se mañana.jpg" alt="">
+                <h3>Luis Enrique - Yo no se mañana</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Yo no se mañana</h3>
+                <audio id="f" src="../Canciones/Yo No Sé Mañana.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('f').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #7-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Flor palida.jpg" alt="">
+                <h3>Marc Anthony - Flor Palida</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Flor Palida</h3>
+                <audio id="g" src="../Canciones/Marc Anthony  Flor Pálida Official Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('g').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #8-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/avispas.jpg" alt="">
+                <h3>Juan Luis Guerra - Las Avispas</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Las Avispas</h3>
+                <audio id="h" src="../Canciones/Las Avispas.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('h').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>r
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronica</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    window.addEventListener("load", () => {
+const loader = document.querySelector(".loader");
+
+loader.classList.add("loader--hidden");
+
+loader.addEventListener("transitionend", () => {
+document.body.removeChild(loader);
+});
+});
+
+</script>
+</head>
+<body class="fondo">
+    <header>
+        <img id="logo" src="../imagenes/musi.gif">
+        <h1 id="titulo">MusicCloud</h1>
+           <nav>
+            <ul class="texto">
+                <li class="niveles"><a id="boton" href="index.html">Inicio</a></li>
+                <li class="niveles"><a id="boton" href="musica.html">Categorias</a></li>
+                <li class="niveles"><a id="boton" href="contactenos.html">Contactenos</a></li>
+            </ul>
+           </nav>
+           <div class="loader"><h1>Loading</h1></div>
+    </header>
+    <h1 id="subtitulo">Canciones de Heavy Metal</h1>
+    <!--Tarjeta #1-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/psychosocial.jpg" alt="">
+                <h3>Slipknot</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Psychosocial</h3>
+                <audio id="a" src="../Canciones/Slipknot  Psychosocial OFFICIAL VIDEO HD.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('a').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+    <!--Tarjeta#2-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Rammstein.jpg" alt="">
+            <h3>Rammstein</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Radio</h3>
+            <audio id="b" src="../Canciones/Rammstein  Radio Official Video.mp3" controls=""></audio>
+<br>
+<button  class="boton_musica" onclick="document.getElementById('b').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #3-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Korn.jpg" alt="">
+            <h3>Korn</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Falling Away From Me </h3>
+            <audio id="c" src="../Canciones/Korn  Falling Away from Me Official HD Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('c').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #4-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Jinjer.jpg" alt="">
+            <h3>Jinjer</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>On The Top</h3>
+            <audio id="d" src="../Canciones/JINJER  On The Top Official Video  Napalm Records.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('d').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--Segunda Fila Tarjeta #5-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/A Perfect Circle.jpg"  alt="">
+                <h3>A Perfect Circle</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Judith</h3>
+                <audio id="e" src="../Canciones/A Perfect Circle  Judith Official Music Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('e').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #6-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Slipknot Unsainted.jpg" alt="">
+                <h3>Slipknot</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Unsainted</h3>
+                <audio id="f" src="../Canciones/Slipknot  Unsainted OFFICIAL VIDEO.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('f').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #7-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Chevelle  The.jpg" alt="">
+                <h3>Chevelle</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>The Red</h3>
+                <audio id="g" src="../Canciones/Chevelle  The Red Official HD Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('g').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #8-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Enemy inside.jpg" alt="">
+                <h3>Enemy Inside</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Phoenix</h3>
+                <audio id="h" src="../Canciones/ENEMY INSIDE  Phoenix Official Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('h').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>r
+    </div>
+
+</body>
+</html>

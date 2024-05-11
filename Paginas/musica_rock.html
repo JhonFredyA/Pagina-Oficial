@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    window.addEventListener("load", () => {
+const loader = document.querySelector(".loader");
+
+loader.classList.add("loader--hidden");
+
+loader.addEventListener("transitionend", () => {
+document.body.removeChild(loader);
+});
+});
+
+</script>
+</head>
+<body class="fondo">
+    <header>
+        <img id="logo" src="../imagenes/musi.gif">
+        <h1 id="titulo">MusicCloud</h1>
+           <nav>
+            <ul class="texto">
+                <li class="niveles"><a id="boton" href="index.html">Inicio</a></li>
+                <li class="niveles"><a id="boton" href="musica.html">Categorias</a></li>
+                <li class="niveles"><a id="boton" href="contactenos.html">Contactenos</a></li>
+            </ul>
+           </nav>
+           
+<div class="loader"><h1>Loading</h1></div>
+    </header>
+    <h1 id="subtitulo">Canciones de Rock</h1>
+    <!--Tarjeta #1-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Skillet-Monster.jpg" alt="">
+                <h3>Skillet - Monster</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Monster</h3>
+                <audio id="a" src="../Canciones/Skillet  Monster Official Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('a').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+    <!--Tarjeta#2-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Old gods of asgard - Herald of darkness.jpg" alt="">
+            <h3>Old Gods Of Asgard - Herald Of Darkness</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Herald Of Darkness</h3>
+            <audio id="b" src="../Canciones/Herald of Darkness.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('b').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #3-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Cuarteto de nos.jpg" alt="">
+            <h3>Cuarteto de nos - Algo mejor que hacer</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Algo mejor que hacer</h3>
+            <audio id="c" src="../Canciones/Cuarteto de Nos  Algo Mejor Que Hacer Letra.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('c').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #4-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Ashes of remain.jpg" alt="">
+            <h3>Ashes of remain - On My Own</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>On My Own</h3>
+            <audio id="d" src="../Canciones/Ashes Remain  On My Own Pseudo Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('d').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--Segunda Fila Tarjeta #5-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Juanes.jpg" alt="">
+                <h3>Juanes - Juntos</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Juntos</h3>
+                <audio id="e" src="../Canciones/Juanes  Juntos Together From McFarland USAOfficial Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('e').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #6-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/LinkinParkIntheEnd.jpg" alt="">
+                <h3>Linkin Park - In the End</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>In The End</h3>
+                <audio id="f" src="../Canciones/In The End Official HD Music Video  Linkin Park.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('f').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #7-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Three.jpg" alt="">
+                <h3>Three Days Grace - Time Of Dying</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Time Of Dying</h3>
+                <audio id="g" src="../Canciones/Three Days Grace  Time Of Dying.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('g').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #8-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/dragon.jpg" alt="">
+                <h3>DragonForce - Through the Fire and Flames</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Through the Fire and Flames</h3>
+                <audio id="h" src="../Canciones/Through The Fire And Flames.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('h').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>r
+    </div>
+
+</body>
+</html>

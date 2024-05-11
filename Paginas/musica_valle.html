@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vallenato</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    window.addEventListener("load", () => {
+const loader = document.querySelector(".loader");
+
+loader.classList.add("loader--hidden");
+
+loader.addEventListener("transitionend", () => {
+document.body.removeChild(loader);
+});
+});
+
+</script>
+</head>
+<body class="fondo">
+    <div class="loader"><h1>Loading</h1></div>
+    <header>
+        <img id="logo" src="../imagenes/musi.gif">
+        <h1 id="titulo">MusicCloud</h1>
+           <nav>
+            <ul class="texto">
+                <li class="niveles"><a id="boton" href="index.html">Inicio</a></li>
+                <li class="niveles"><a id="boton" href="musica.html">Categorias</a></li>
+                <li class="niveles"><a id="boton" href="contactenos.html">Contactenos</a></li>
+            </ul>
+           </nav>
+    </header>
+    <h1 id="subtitulo">Canciones de Vallenato</h1>
+    <!--Tarjeta #1-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/binomio de america.jpg" alt="">
+                <h3>Binomio De Oro De América - Olvidala</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Olvidala</h3>
+                <audio id="a" src="../Canciones/Olvidala Binomio De Oro De America  Video Oficial.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('a').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+    <!--Tarjeta#2-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/gota fria.jpg" alt="">
+            <h3>Carlos vives - La gota fria</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>La gota fria</h3>
+            <audio id="b" src="../Canciones/Carlos Vives  La Gota Fría Oficial 1993.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('b').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #3-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/no voy a llorar.jpg" alt="">
+            <h3>Los Diablitos - No voy a llorar</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>No voy a llorar</h3>
+            <audio id="c" src="../Canciones/No Voy A Llorar Los Diablitos  Video Oficial.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('c').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    <!--Tarjeta #4-->
+    <div class="card">
+        <div class="face front">
+            <img class="img" src="../imagenes/Por un beso.jpg" alt="">
+            <h3>Silvestre Dangond - Por un beso de tu boca</h3>
+        </div>
+        <div class="face back">
+    
+            <h3>Por un beso de tu boca</h3>
+            <audio id="d" src="../Canciones/Silvestre Dangond  Por un Beso de Tu Boca Audio.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('d').play()">Play</button>
+            <div class="link">
+            <a href="#"></a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!--Segunda Fila Tarjeta #5-->
+    <div class="inline">
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Piter manjarres.jpg" alt="">
+                <h3>Peter Manjarres - te empeliculaste</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>Te empeliculaste</h3>
+                <audio id="e" src="../Canciones/Te Empeliculaste  Peter Manjarrés  Sergio Luis Video Oficial.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('e').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #6-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/la invitacion.jpg" alt="">
+                <h3>Jorge celedon - la invitacion</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>La invitacion</h3>
+                <audio id="f" src="../Canciones/Jorge Celedón Jimmy Zambrano  La Invitación Video.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('f').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #7-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/Cartagena.jpg" alt="">
+                <h3>Fonseca, Silvestre Dangond - Cartagena </h   3>
+            </div>
+            <div class="face back">
+        
+                <h3>Cartagena</h3>
+                <audio id="g" src="../Canciones/Fonseca Silvestre Dangond  Cartagena Video Oficial.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('g').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+        <!--Tarjeta #8-->
+        <div class="card">
+            <div class="face front">
+                <img class="img" src="../imagenes/felipe pelaez.jpg" alt="">
+                <h3>Felipe Pelaez - el amor mas grande del planeta</h3>
+            </div>
+            <div class="face back">
+        
+                <h3>El Amor mas grande del planeta</h3>
+                <audio id="h" src="../Canciones/El Amor Más Grande Del Planeta.mp3" controls=""></audio>
+<br>
+<button class="boton_musica" onclick="document.getElementById('h').play()">Play</button>
+                <div class="link">
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>r
+    </div>
+
+</body>
+</html>
